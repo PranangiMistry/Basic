@@ -1,8 +1,5 @@
 package com.integ.test;
 
-import javafx.scene.chart.PieChart;
-
-import javax.ws.rs.Produces;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
