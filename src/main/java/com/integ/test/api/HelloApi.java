@@ -5,6 +5,8 @@ package com.integ.test.api;
 * Date: 18-01-2018 13:52
 */
 
+import com.integ.test.GetDBConnection;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
@@ -17,5 +19,12 @@ public class HelloApi {
     public String sayHello(User user) {
         return "Hello " + user.getName();
     }
+
+//    @GET
+//    @Produces(MediaType.TEXT_PLAIN)
+//    public String getconnection(){
+//        GetDBConnection gd=new GetDBConnection();
+//        return "heloooooooo";
+   // }
 
 }
