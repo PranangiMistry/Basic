@@ -7,7 +7,7 @@ package com.integ.test;
 public class Data {
 
     public Data(){}
-    public Data(int id, int isStd, String fname, String lname) {
+    public Data(int id, String fname, String lname,int isStd) {
         this.id = id;
         this.isStd = isStd;
         this.fname = fname;

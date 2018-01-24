@@ -6,6 +6,7 @@ package com.integ.test;
 */
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
+import com.integ.test.api.DataResource;
 import com.integ.test.api.HelloApi;
 import com.integ.test.api.MessageResource;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -19,7 +20,8 @@ public class JerseyApp extends ResourceConfig {
         register(HelloApi.class);
         register(MessageResource.class);
         register(ProfileResource.class);
-        register(DisplayAllData.class);
+        register(DataResource.class);
+        register(LoginResource.class);
         register(new JacksonJsonProvider());
     }
 }
